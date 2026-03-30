@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-30T20:02:08.404459+07:00 by Eclipse SUMO netedit 1.26.0
+<neteditConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumocfg-file value="C:\MAS-RL-Traffic-Control\Test1,1.sumocfg"/>
+        <route-files value="C:\MAS-RL-Traffic-Control\Test1.rou.xml"/>
+        <sumo-net-file value="C:\MAS-RL-Traffic-Control\GiaoLo_va_DenDo_Learn.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\MAS-RL-Traffic-Control\GiaoLo_va_DenDo_Learn.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</neteditConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" avoidOverlap="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-64.74,-19.00,6.82,9.88" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id="-E1" from="J9" to="XY" priority="-1" shape="6.82,9.88 -28.79,9.74">
+        <lane id="-E1_0" index="0" speed="13.89" length="39.07" shape="6.81,11.48 -24.91,11.36"/>
+    </edge>
+    <edge id="-E1.35" from="XY" to="J8" priority="-1" shape="-28.79,9.74 -64.74,9.59">
+        <lane id="-E1.35_0" index="0" speed="13.89" length="32.91" shape="-36.09,11.31 -64.75,11.19"/>
+    </edge>
+    <edge id="E1" from="J8" to="XY" priority="-1" shape="-64.74,9.59 -35.39,9.71">
+        <lane id="E1_0" index="0" speed="13.89" length="32.91" shape="-64.73,7.99 -36.07,8.11"/>
+    </edge>
+    <edge id="E1.29" from="XY" to="J9" priority="-1" shape="-35.39,9.71 6.82,9.88">
+        <lane id="E1.29_0" index="0" speed="13.89" length="39.07" shape="-24.90,8.15 6.83,8.28"/>
+    </edge>
+    <edge id="E2" from="J10" to="XY" priority="-1" shape="-32.12,-19.00 -32.09,5.28">
+        <lane id="E2_0" index="0" speed="13.89" length="27.24" shape="-30.52,-19.00 -30.49,2.54"/>
+    </edge>
+
+    <tlLogic id="XY" type="static" programID="0" offset="0">
+        <phase duration="42" state="GrG"/>
+        <phase duration="3"  state="Gry"/>
+        <phase duration="42" state="GGr"/>
+        <phase duration="3"  state="Gyr"/>
+    </tlLogic>
+
+    <junction id="J10" type="dead_end" x="-32.12" y="-19.00" incLanes="" intLanes="" shape="-32.12,-19.00 -28.92,-19.00"/>
+    <junction id="J8" type="dead_end" x="-64.74" y="9.59" incLanes="-E1.35_0" intLanes="" shape="-64.74,9.59 -64.75,12.79 -64.74,9.59"/>
+    <junction id="J9" type="dead_end" x="6.82" y="9.88" incLanes="E1.29_0" intLanes="" shape="6.82,9.88 6.83,6.68 6.82,9.88"/>
+    <junction id="XY" type="traffic_light" x="-32.09" y="8.24" incLanes="-E1_0 E2_0 E1_0" intLanes="" shape="-24.92,12.96 -24.89,6.55 -27.11,6.10 -27.89,5.54 -28.45,4.76 -28.78,3.76 -28.89,2.54 -32.09,2.54 -32.53,4.75 -33.08,5.52 -33.86,6.07 -34.85,6.40 -36.07,6.51 -36.09,12.91" fringe="outer">
+        <request index="0" response="000" foes="000"/>
+        <request index="1" response="100" foes="100"/>
+        <request index="2" response="000" foes="010"/>
+    </junction>
+
+    <connection from="-E1" to="-E1.35" fromLane="0" toLane="0" tl="XY" linkIndex="0" dir="s" state="O"/>
+    <connection from="E1" to="E1.29" fromLane="0" toLane="0" tl="XY" linkIndex="2" dir="s" state="O"/>
+    <connection from="E2" to="E1.29" fromLane="0" toLane="0" tl="XY" linkIndex="1" dir="r" state="o"/>
+
+</net>
