@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-31T16:10:26.621072+07:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E0" to="E11" via="E1"/>
+    <flow id="f_1" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E2" to="E10" via="E3"/>
+    <flow id="f_10" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E2" to="E9"/>
+    <flow id="f_11" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E2" to="E11"/>
+    <flow id="f_2" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E0" to="E6" via="E1"/>
+    <flow id="f_3" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E0" to="E10" via="E1"/>
+    <flow id="f_4" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E4" to="E6" via="E5"/>
+    <flow id="f_5" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E4" to="E10" via="E5"/>
+    <flow id="f_6" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E4" to="E9" via="E5"/>
+    <flow id="f_7" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E7" to="E9" via="E8"/>
+    <flow id="f_8" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E7" to="E6" via="E8"/>
+    <flow id="f_9" begin="0.00" end="3600.00" perHour="500.00" color="186,186,186" from="E7" to="E11"/>
+</routes>
