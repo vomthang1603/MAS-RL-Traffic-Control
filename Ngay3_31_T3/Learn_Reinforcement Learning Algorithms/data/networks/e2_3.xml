@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-01T22:16:23.522333+07:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\MAS-RL-Traffic-Control\Ngay3_31_T3\Learn_Reinforcement Learning Algorithms\config\../data/networks/RL1.net.xml"/>
+        <route-files value="C:\MAS-RL-Traffic-Control\Ngay3_31_T3\Learn_Reinforcement Learning Algorithms\config\../data/networks/RL1.rou.xml"/>
+        <additional-files value="C:\MAS-RL-Traffic-Control\Ngay3_31_T3\Learn_Reinforcement Learning Algorithms\config\../data/networks/RL1.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.10"/>
+    </time>
+
+    <processing>
+        <lateral-resolution value="0"/>
+    </processing>
+
+    <traci_server>
+        <remote-port value="51156"/>
+    </traci_server>
+
+    <gui_only>
+        <delay value="1000"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="67.70" id="Node2_7_SB_0" sampledSeconds="98.25" nVehEntered="14" nVehLeft="12" nVehSeen="14" meanSpeed="1.97" meanTimeLoss="6.05" meanOccupancy="51.91" maxOccupancy="74.99" meanMaxJamLengthInVehicles="0.79" meanMaxJamLengthInMeters="3.84" maxJamLengthInVehicles="2" maxJamLengthInMeters="10.00" jamLengthInVehiclesSum="537" jamLengthInMetersSum="2599.22" meanHaltingDuration="7.71" maxHaltingDuration="11.20" haltingDurationSum="61.70" meanIntervalHaltingDuration="7.71" maxIntervalHaltingDuration="11.20" intervalHaltingDurationSum="61.70" startedHalts="8.00" meanVehicleNumber="1.47" maxVehicleNumber="2" />
+</detector>
