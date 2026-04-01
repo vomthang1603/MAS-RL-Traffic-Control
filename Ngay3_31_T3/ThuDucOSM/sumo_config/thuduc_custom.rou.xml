@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<routes>
+    <vType id="motorbike" vClass="motorcycle" maxSpeed="12.0" accel="2.0" decel="4.0" length="2.2" minGap="1.0" color="0,128,255" guiShape="motorcycle"/>
+    <vType id="car" vClass="passenger" maxSpeed="15.0" accel="2.6" decel="4.5" length="5.0" minGap="2.5" color="200,200,200" guiShape="passenger"/>
+    <vType id="bus" vClass="bus" maxSpeed="10.0" accel="1.2" decel="3.0" length="12.0" minGap="3.0" color="255,165,0" guiShape="bus"/>
+    <vType id="truck" vClass="truck" maxSpeed="10.0" accel="1.0" decel="3.5" length="8.0" minGap="3.0" color="139,90,43" guiShape="truck"/>
+    <vType id="ambulance" vClass="emergency" maxSpeed="25.0" accel="3.0" decel="5.0" length="6.5" minGap="2.0" speedFactor="1.5" color="255,0,0" guiShape="emergency"/>
+    <trip id="amb_0" type="ambulance" depart="102" from="-191937837#0" to="722058131"/>
+    <trip id="amb_1" type="ambulance" depart="456" from="1175493775#0" to="610099998"/>
+    <trip id="amb_2" type="ambulance" depart="2619" from="1269264065#0" to="404368568"/>
+    <flow id="bus_routeA" type="bus" begin="0" end="3600" number="20" from="1149832776" to="404368568"/>
+    <flow id="bus_routeB" type="bus" begin="0" end="3600" number="20" from="610137708" to="610099998"/>
+    <flow id="truck_flow_before_0" type="truck" begin="0" end="900" number="3" from="1149832776" to="404368566"/>
+    <flow id="truck_flow_after_0" type="truck" begin="2700" end="3600" number="3" from="1149832776" to="404368566"/>
+    <flow id="truck_flow_before_1" type="truck" begin="0" end="900" number="3" from="1269264065#0" to="404368568"/>
+    <flow id="truck_flow_after_1" type="truck" begin="2700" end="3600" number="3" from="1269264065#0" to="404368568"/>
+    <flow id="truck_flow_before_2" type="truck" begin="0" end="900" number="3" from="610137708" to="610099998"/>
+    <flow id="truck_flow_after_2" type="truck" begin="2700" end="3600" number="3" from="610137708" to="610099998"/>
+    <flow id="truck_flow_before_3" type="truck" begin="0" end="900" number="3" from="1175493775#0" to="722058131"/>
+    <flow id="truck_flow_after_3" type="truck" begin="2700" end="3600" number="3" from="1175493775#0" to="722058131"/>
+    <flow id="truck_flow_before_4" type="truck" begin="0" end="900" number="3" from="-191937837#0" to="606240976"/>
+    <flow id="truck_flow_after_4" type="truck" begin="2700" end="3600" number="3" from="-191937837#0" to="606240976"/>
+    <flow id="truck_flow_before_5" type="truck" begin="0" end="900" number="3" from="1213004136" to="-1269264065#0"/>
+    <flow id="truck_flow_after_5" type="truck" begin="2700" end="3600" number="3" from="1213004136" to="-1269264065#0"/>
+    <flow id="truck_flow_before_6" type="truck" begin="0" end="900" number="3" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="truck_flow_after_6" type="truck" begin="2700" end="3600" number="3" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="truck_flow_before_7" type="truck" begin="0" end="900" number="3" from="802338945" to="224494489#2"/>
+    <flow id="truck_flow_after_7" type="truck" begin="2700" end="3600" number="3" from="802338945" to="224494489#2"/>
+    <flow id="car_flow_before_0" type="car" begin="0" end="900" number="12" from="1149832776" to="404368566"/>
+    <flow id="car_flow_peak_0" type="car" begin="900" end="2700" number="37" from="1149832776" to="404368566"/>
+    <flow id="car_flow_after_0" type="car" begin="2700" end="3600" number="13" from="1149832776" to="404368566"/>
+    <flow id="car_flow_before_1" type="car" begin="0" end="900" number="12" from="1269264065#0" to="404368568"/>
+    <flow id="car_flow_peak_1" type="car" begin="900" end="2700" number="37" from="1269264065#0" to="404368568"/>
+    <flow id="car_flow_after_1" type="car" begin="2700" end="3600" number="13" from="1269264065#0" to="404368568"/>
+    <flow id="car_flow_before_2" type="car" begin="0" end="900" number="12" from="610137708" to="610099998"/>
+    <flow id="car_flow_peak_2" type="car" begin="900" end="2700" number="37" from="610137708" to="610099998"/>
+    <flow id="car_flow_after_2" type="car" begin="2700" end="3600" number="13" from="610137708" to="610099998"/>
+    <flow id="car_flow_before_3" type="car" begin="0" end="900" number="12" from="1175493775#0" to="722058131"/>
+    <flow id="car_flow_peak_3" type="car" begin="900" end="2700" number="37" from="1175493775#0" to="722058131"/>
+    <flow id="car_flow_after_3" type="car" begin="2700" end="3600" number="13" from="1175493775#0" to="722058131"/>
+    <flow id="car_flow_before_4" type="car" begin="0" end="900" number="12" from="-191937837#0" to="606240976"/>
+    <flow id="car_flow_peak_4" type="car" begin="900" end="2700" number="37" from="-191937837#0" to="606240976"/>
+    <flow id="car_flow_after_4" type="car" begin="2700" end="3600" number="13" from="-191937837#0" to="606240976"/>
+    <flow id="car_flow_before_5" type="car" begin="0" end="900" number="12" from="1213004136" to="-1269264065#0"/>
+    <flow id="car_flow_peak_5" type="car" begin="900" end="2700" number="37" from="1213004136" to="-1269264065#0"/>
+    <flow id="car_flow_after_5" type="car" begin="2700" end="3600" number="13" from="1213004136" to="-1269264065#0"/>
+    <flow id="car_flow_before_6" type="car" begin="0" end="900" number="12" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="car_flow_peak_6" type="car" begin="900" end="2700" number="37" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="car_flow_after_6" type="car" begin="2700" end="3600" number="13" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="car_flow_before_7" type="car" begin="0" end="900" number="12" from="802338945" to="224494489#2"/>
+    <flow id="car_flow_peak_7" type="car" begin="900" end="2700" number="37" from="802338945" to="224494489#2"/>
+    <flow id="car_flow_after_7" type="car" begin="2700" end="3600" number="13" from="802338945" to="224494489#2"/>
+    <flow id="mb_flow_before_0" type="motorbike" begin="0" end="900" number="15" from="1149832776" to="404368566"/>
+    <flow id="mb_flow_peak_0" type="motorbike" begin="900" end="2700" number="70" from="1149832776" to="404368566"/>
+    <flow id="mb_flow_after_0" type="motorbike" begin="2700" end="3600" number="15" from="1149832776" to="404368566"/>
+    <flow id="mb_flow_before_1" type="motorbike" begin="0" end="900" number="15" from="1269264065#0" to="404368568"/>
+    <flow id="mb_flow_peak_1" type="motorbike" begin="900" end="2700" number="70" from="1269264065#0" to="404368568"/>
+    <flow id="mb_flow_after_1" type="motorbike" begin="2700" end="3600" number="15" from="1269264065#0" to="404368568"/>
+    <flow id="mb_flow_before_2" type="motorbike" begin="0" end="900" number="15" from="610137708" to="610099998"/>
+    <flow id="mb_flow_peak_2" type="motorbike" begin="900" end="2700" number="70" from="610137708" to="610099998"/>
+    <flow id="mb_flow_after_2" type="motorbike" begin="2700" end="3600" number="15" from="610137708" to="610099998"/>
+    <flow id="mb_flow_before_3" type="motorbike" begin="0" end="900" number="15" from="1175493775#0" to="722058131"/>
+    <flow id="mb_flow_peak_3" type="motorbike" begin="900" end="2700" number="70" from="1175493775#0" to="722058131"/>
+    <flow id="mb_flow_after_3" type="motorbike" begin="2700" end="3600" number="15" from="1175493775#0" to="722058131"/>
+    <flow id="mb_flow_before_4" type="motorbike" begin="0" end="900" number="15" from="-191937837#0" to="606240976"/>
+    <flow id="mb_flow_peak_4" type="motorbike" begin="900" end="2700" number="70" from="-191937837#0" to="606240976"/>
+    <flow id="mb_flow_after_4" type="motorbike" begin="2700" end="3600" number="15" from="-191937837#0" to="606240976"/>
+    <flow id="mb_flow_before_5" type="motorbike" begin="0" end="900" number="15" from="1213004136" to="-1269264065#0"/>
+    <flow id="mb_flow_peak_5" type="motorbike" begin="900" end="2700" number="70" from="1213004136" to="-1269264065#0"/>
+    <flow id="mb_flow_after_5" type="motorbike" begin="2700" end="3600" number="15" from="1213004136" to="-1269264065#0"/>
+    <flow id="mb_flow_before_6" type="motorbike" begin="0" end="900" number="15" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="mb_flow_peak_6" type="motorbike" begin="900" end="2700" number="70" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="mb_flow_after_6" type="motorbike" begin="2700" end="3600" number="15" from="-606920724#5" to="-1175493775#0"/>
+    <flow id="mb_flow_before_7" type="motorbike" begin="0" end="900" number="15" from="802338945" to="224494489#2"/>
+    <flow id="mb_flow_peak_7" type="motorbike" begin="900" end="2700" number="70" from="802338945" to="224494489#2"/>
+    <flow id="mb_flow_after_7" type="motorbike" begin="2700" end="3600" number="15" from="802338945" to="224494489#2"/>
+</routes>

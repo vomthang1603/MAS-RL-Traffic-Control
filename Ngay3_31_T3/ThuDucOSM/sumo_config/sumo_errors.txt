@@ -1,0 +1,147 @@
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966658#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-306704226#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-256497913#1'.)
+Warning: No connection between edge '-1419189306#0' and edge '-291440678' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '695757489'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838010#2'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '469364067'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966659#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-610137728'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1381966659#1'.
+Warning: No connection between edge '-608573092' and edge '1175493775#1' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-306704226#1'.
+Warning: No connection between edge '191937846#5' and edge '723594685' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '224492699#1'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-256497912#0'.)
+Warning: No connection between edge '1419189312' and edge '211840922#0' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722555106#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-224492699#0'.)
+Warning: No connection between edge '1215970290#1' and edge '1419189306#1' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-256497912#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-306704226#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966659#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137732'.
+Warning: No connection between edge '218227253#0' and edge '191937850#1' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-224492699#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-723249851'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137732'.
+Warning: No connection between edge '-1419189306#1' and edge '191937819#1' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '610137728'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '256497913#1'.)
+Warning: No connection between edge '-606920724#1' and edge '1269264065#0' found.
+Warning: No connection between edge '722058131' and edge '720360982#1' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722555106#3'.
+Warning: No connection between edge '291440669' and edge '211840922#0' found.
+Warning: No connection between edge '719462304' and edge '610137669' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-610137728'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '226572943'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '720360979#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137726'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '527116699'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '610137730'.
+Warning: No connection between edge '-802338945' and edge '719462303' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '899872956'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838010#2'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137730'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '720360980'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '723249851'.
+Warning: No connection between edge '191937837#1' and edge '608573092' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1484447762#0'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-256497912#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '607291206#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '720360981#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-501540198'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-695757489'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '720360979#1'.
+Warning: No connection between edge '1149832778#3' and edge '720360982#2' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838011'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '503192599'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-1229637201'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-224492699#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-224492699#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1229637201'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966659#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722357077'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722555106#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '293328210'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '306704226#0'.
+Warning: No connection between edge '606240979' and edge '-191937837#6' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-306704225'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838009#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '469364067'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-952305609#0'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-306704225'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1229637201'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '293328210'.)
+Warning: No connection between edge '607291202' and edge '1175493775#0' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-695757489'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '256497912#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '527116699'.
+Warning: No connection between edge '1385625111#1' and edge '32577544#4' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1106838009#0'.
+Warning: No connection between edge '1435980094' and edge '1175493775#2' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722555106#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '610137732'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '720360980'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-256497912#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-224492699#0'.)
+Warning: No connection between edge '722357076#1' and edge '1269264065#0' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722555106#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-256497912#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722555106#3'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '256497913#1'.)
+Warning: No connection between edge '1435980096' and edge '566567148#1' found.
+Warning: No connection between edge '-1175493775#0' and edge '566567148#1' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722357074'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-224492699#0'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137726'.
+Warning: No connection between edge '404368564#2' and edge '720360983#1' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '952305609#1'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '720360979#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1381966658#0'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966660#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '695757489'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1381966659#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-503192599'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-610137730'.)
+Warning: No connection between edge '722058131' and edge '-1175493775#0' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-607291206#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722555106#3'.)
+Warning: No connection between edge '-606920724#5' and edge '347962231#0' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-501540198'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1484447762#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-306704226#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '293328210'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1229637201'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-610137732'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '306704226#1'.)
+Warning: No connection between edge '-802338945' and edge '191937837#6' found.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '306704226#0'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-610137728'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1106838011'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1484447761#1'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838009#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1381966659#1'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '-224492699#0'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722555106#2'.
+Warning: No connection between edge '1272225924#0' and edge '-1467204558' found.
+Warning: No connection between edge '191937819#0' and edge '404368564#1' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '226572943'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '722555106#0'.)
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838010#1'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-224492699#0'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1484447762#1'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '306704225'.)
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-501540198'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838009#1'.)
+Warning: No connection between edge '291440682' and edge '720360984' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1484447761#0'.
+Warning: No connection between edge '1385625111#1' and edge '1149832778#2' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '722555106#1'.
+Warning: No connection between edge '606240976' and edge '404368568' found.
+Warning: No connection between edge '404368568' and edge '1175493775#0' found.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '-256497913#0'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1484447762#1'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '1106838010#2'.
+Warning: Vehicle 'simulation.findRoute' is not allowed on destination edge '952305609#0'.
+Error: Answered with error to command 0xab: Invalid departure edge for vehicle type 'DEFAULT_VEHTYPE' (Vehicle 'simulation.findRoute' is not allowed to depart on any lane of edge '1106838010#0'.)

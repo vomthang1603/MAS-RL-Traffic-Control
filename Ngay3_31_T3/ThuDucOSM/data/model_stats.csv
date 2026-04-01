@@ -1,0 +1,2 @@
+﻿model_type,n_features,feature_names,n_classes,class_names,train_samples,test_samples,test_accuracy,cv_accuracy_mean,cv_accuracy_std
+VotingClassifier (RF + GradientBoosting + LogReg),12,"total_vehicles, avg_speed_kmh, avg_wait_s, max_wait_s, throughput, departed, speed_ma5, wait_ma5, vehicle_ma5, efficiency, traffic_pressure, congestion_index",3,"Bình thường, Chậm, Tắc nghẽn",287,72,1.0,0.993,0.014

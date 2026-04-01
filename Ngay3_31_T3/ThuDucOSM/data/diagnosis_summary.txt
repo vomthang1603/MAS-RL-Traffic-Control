@@ -1,0 +1,27 @@
+============================================================
+   BÁO CÁO CHẨN ĐOÁN GIAO THÔNG NGÃ TƯ THỦ ĐỨC
+============================================================
+Tổng số mẫu phân tích : 359
+Thời gian mô phỏng    : 3590 giây
+
+── Thống kê tốc độ (km/h) ──
+  Trung bình : 1.07
+  Thấp nhất  : 0.00
+  Cao nhất   : 33.82
+
+── Thống kê thời gian chờ (giây) ──
+  Trung bình : 1657.41
+  Thấp nhất  : 0.00
+  Cao nhất   : 3444.06
+
+── Phân bố trạng thái giao thông ──
+  Thông thoáng   :    0 mẫu (  0.0%)
+  Bình thường    :    6 mẫu (  1.7%)
+  Chậm           :    9 mẫu (  2.5%)
+  Tắc nghẽn      :  344 mẫu ( 95.8%)
+
+── Bất thường phát hiện : 14 sự kiện
+
+── Khuyến nghị ──
+  Điều tiết khẩn cấp, ưu tiên hướng thoát, gửi cảnh báo
+============================================================
