@@ -138,7 +138,7 @@ def get_state():  #3.& 4. Constraint 3 & 4
     
     return (q_EB_0, q_EB_1, q_EB_2, q_SB_0, q_SB_1, q_SB_2, current_phase)
 
-def apply_action(action, tls_id="Node2"): #5. Constraint 5
+def apply_action(action, current_step, tls_id="Node2"): #5. Constraint 5
     """
     Executes the chosen action on the traffic light, combining:
       - Min Green Time check
@@ -153,12 +153,12 @@ def apply_action(action, tls_id="Node2"): #5. Constraint 5
     
     elif action == 1:
         # Check if minimum green time has passed before switching
-        if current_simulation_step - last_switch_step >= MIN_GREEN_STEPS:
+        if current_step - last_switch_step >= MIN_GREEN_STEPS:
             program = traci.trafficlight.getAllProgramLogics(tls_id)[0]
             num_phases = len(program.phases)
             next_phase = (get_current_phase(tls_id) + 1) % num_phases
             traci.trafficlight.setPhase(tls_id, next_phase)
-            last_switch_step = current_simulation_step
+            last_switch_step = current_step
 
 
 
@@ -213,12 +213,10 @@ cumulative_reward = 0.0
 
 print("\n=== Starting Fully Online Continuous Learning ===")
 for step in range(TOTAL_STEPS):
-    current_simulation_step = step
-    
     state = get_state()
     action = get_action_from_policy(state)
-    apply_action(action)
-    
+    apply_action(action, step)
+
     traci.simulationStep()  # Advance simulation by one step
     
     new_state = get_state()
@@ -231,14 +229,11 @@ for step in range(TOTAL_STEPS):
     updated_q_vals = Q_table[state]
 
     # Record data every 100 steps
-    if step % 1 == 0:
+    if step % 100 == 0:
         print(f"Step {step}, Current_State: {state}, Action: {action}, New_State: {new_state}, Reward: {reward:.2f}, Cumulative Reward: {cumulative_reward:.2f}, Q-values(current_state): {updated_q_vals}")
         step_history.append(step)
         reward_history.append(cumulative_reward)
         queue_history.append(sum(new_state[:-1]))  # sum of queue lengths
-        print("Current Q-table:")
-        for st, qvals in Q_table.items():
-            print(f"  {st} -> {qvals}")
      
 # -------------------------
 # Step 9: Close connection between SUMO and Traci
