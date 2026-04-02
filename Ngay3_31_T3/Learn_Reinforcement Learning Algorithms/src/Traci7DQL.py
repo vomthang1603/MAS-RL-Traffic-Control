@@ -41,7 +41,7 @@ Sumo_config = [
     'sumo-gui',
     '-c', CONFIG_PATH,
     '--step-length', '0.10',
-    '--delay', '100',
+    '--delay', '1000',
     '--lateral-resolution', '0'
 ]
 
