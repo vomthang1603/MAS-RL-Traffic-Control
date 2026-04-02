@@ -1,0 +1,17 @@
+STEP 1: Import required libraries (os, sys, numpy, matplotlib, random, tensorflow if using DQL)
+
+STEP 2: Set up SUMO_HOME environment and system path
+
+STEP 3: Import TraCI for communication with SUMO
+
+STEP 4: Configure SUMO simulation parameters (config file, step length, GUI)
+
+STEP 5: Start the SUMO simulation and establish connection
+
+STEP 6: Define variables and hyperparameters (state, actions, alpha, gamma, epsilon)
+
+STEP 7: Define reinforcement learning functions (state, reward, action selection, update, helpers)
+
+STEP 8: Execute the main learning loop (state → action → simulation → reward → update)
+
+STEP 9: Close simulation and visualize results (plots, logs)
