@@ -1,0 +1,12 @@
+Warning: No connection between edge 'E31' and edge 'E30' found.
+Warning: Vehicle 'v72_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_4_0' with decel=9.00, wished=4.50, severity=1.00, time=134.00.
+Warning: Vehicle 'v187_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_60_0' with decel=9.00, wished=4.50, severity=1.00, time=204.00.
+Warning: Vehicle 'v418_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_28_0' with decel=9.00, wished=4.50, severity=1.00, time=463.00.
+Warning: Vehicle 'v772_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_46_0' with decel=9.00, wished=4.50, severity=1.00, time=660.00.
+Warning: Vehicle 'v1715_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_46_0' with decel=9.00, wished=4.50, severity=1.00, time=1492.00.
+Warning: Vehicle 'v1872_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_6_0' with decel=9.00, wished=4.50, severity=1.00, time=1857.00.
+Warning: Teleporting vehicle 'v1328_motorcycle'; waited too long (yield), lane='E20_2', time=2275.00.
+Warning: Vehicle 'v1328_motorcycle' ends teleporting on edge 'E30', time=2275.00.
+Warning: Vehicle 'v2702_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_48_0' with decel=9.00, wished=4.50, severity=1.00, time=2349.00.
+Warning: Vehicle 'v3095_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_15_0' with decel=9.00, wished=4.50, severity=1.00, time=2601.00.
+Warning: Vehicle 'v3581_motorcycle' performs emergency braking on lane ':clusterJ48_clusterJ44_clusterJ28_J41_clusterJ23_clusterJ25_clusterJ18_J24_36_1' with decel=9.00, wished=4.50, severity=1.00, time=3013.00.

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-04T08:41:32.557289+07:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <laneAreaDetector id="e2_0" lane="E26_3" pos="60.02" length="10.00" friendlyPos="1" period="300.00" file="e2_0.xml"/>
+    <laneAreaDetector id="e2_1" lane="E26_2" pos="60.11" length="10.00" friendlyPos="1" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="e2_10" lane="E20_0" pos="36.02" length="10.00" friendlyPos="1" period="300.00" file="e2_10.xml"/>
+    <laneAreaDetector id="e2_11" lane="E15_2" pos="0.00" length="10.00" friendlyPos="1" period="300.00" file="e2_11.xml"/>
+    <laneAreaDetector id="e2_12" lane="E15_1" pos="0.00" length="10.00" friendlyPos="1" period="300.00" file="e2_12.xml"/>
+    <laneAreaDetector id="e2_13" lane="E15_0" pos="0.00" length="10.00" friendlyPos="1" period="300.00" file="e2_13.xml"/>
+    <laneAreaDetector id="e2_14" lane="E14_1" pos="195.48" length="10.00" friendlyPos="1" period="300.00" file="e2_14.xml"/>
+    <laneAreaDetector id="e2_15" lane="E14_0" pos="195.19" length="10.00" friendlyPos="1" period="300.00" file="e2_15.xml"/>
+    <laneAreaDetector id="e2_16" lane="E31_2" pos="60.01" length="10.00" friendlyPos="1" period="300.00" file="e2_16.xml"/>
+    <laneAreaDetector id="e2_17" lane="E31_1" pos="60.69" length="10.00" friendlyPos="1" period="300.00" file="e2_17.xml"/>
+    <laneAreaDetector id="e2_18" lane="E31_0" pos="60.07" length="10.00" friendlyPos="1" period="300.00" file="e2_18.xml"/>
+    <laneAreaDetector id="e2_19" lane="E29_2" pos="109.45" length="10.00" friendlyPos="1" period="300.00" file="e2_19.xml"/>
+    <laneAreaDetector id="e2_2" lane="E26_1" pos="60.28" length="10.00" friendlyPos="1" period="300.00" file="e2_2.xml"/>
+    <laneAreaDetector id="e2_20" lane="E29_1" pos="109.08" length="10.00" friendlyPos="1" period="300.00" file="e2_20.xml"/>
+    <laneAreaDetector id="e2_21" lane="E29_0" pos="110.30" length="10.00" friendlyPos="1" period="300.00" file="e2_21.xml"/>
+    <laneAreaDetector id="e2_22" lane="E27_1" pos="88.85" length="10.00" friendlyPos="1" period="300.00" file="e2_22.xml"/>
+    <laneAreaDetector id="e2_23" lane="E27_0" pos="88.43" length="10.00" friendlyPos="1" period="300.00" file="e2_23.xml"/>
+    <laneAreaDetector id="e2_24" lane="E27_2" pos="88.60" length="10.00" friendlyPos="1" period="300.00" file="e2_24.xml"/>
+    <laneAreaDetector id="e2_3" lane="E26_0" pos="60.71" length="10.00" friendlyPos="1" period="300.00" file="e2_3.xml"/>
+    <laneAreaDetector id="e2_4" lane="E23_3" pos="190.79" length="10.00" friendlyPos="1" period="300.00" file="e2_4.xml"/>
+    <laneAreaDetector id="e2_5" lane="E23_2" pos="190.11" length="10.00" friendlyPos="1" period="300.00" file="e2_5.xml"/>
+    <laneAreaDetector id="e2_6" lane="E23_1" pos="188.49" length="10.00" friendlyPos="1" period="300.00" file="e2_6.xml"/>
+    <laneAreaDetector id="e2_7" lane="E23_0" pos="188.66" length="10.00" friendlyPos="1" period="300.00" file="e2_7.xml"/>
+    <laneAreaDetector id="e2_8" lane="E20_2" pos="36.61" length="10.00" friendlyPos="1" period="300.00" file="e2_8.xml"/>
+    <laneAreaDetector id="e2_9" lane="E20_1" pos="36.10" length="10.00" friendlyPos="1" period="300.00" file="e2_9.xml"/>
+</additional>
