@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-06T19:35:04.793806+07:00 by Eclipse SUMO netedit 1.26.0
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" height="1.60" color="120,72,72"/>
+    <vType id="Rav4" height="1.60"/>
+    <vType id="Scooter" maxSpeed="5.56" vClass="scooter" guiShape="passenger/van" width="0.65" lcStrategic="0.5" lcTurnAlignmentDistance="20" jmCrossingGap="4.00" carFollowModel="IDM" accel="1.2" decel="3" emergencyDecel="7"/>
+    <vType id="t_0"/>
+    <vType id="t_1"/>
+    <vTypeDistribution id="td_0">
+        <vType refId="Rav4"/>
+        <vType refId="Scooter"/>
+    </vTypeDistribution>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="f_0" type="DEFAULT_BIKETYPE" begin="0.00" end="3600.00" perHour="1800.00" from="E0" to="E0"/>
+    <flow id="f_1" type="Rav4" begin="0.00" end="3600.00" perHour="1800.00" departLane="2" departSpeed="1.00" color="white" from="E0" to="E0"/>
+    <flow id="f_2" type="Rav4" begin="0.00" end="3600.00" perHour="1800.00" departLane="2" from="E0" to="E0"/>
+    <flow id="f_3" type="Rav4" begin="0.00" end="3600.00" perHour="1800.00" departLane="2" from="E0" to="E0"/>
+    <flow id="f_4" type="Scooter" begin="0.00" end="3600.00" number="1800" departLane="1" from="E0" to="E0"/>
+</routes>
