@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-04-12T15:32:07.169644+07:00 by Eclipse SUMO GUI 1.26.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../network/N4TD_FS.net.xml"/>
+        <route-files value="C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../scenarios/asymmetric.rou.xml"/>
+        <additional-files value="C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../network/N4TD_FS.add.xml,C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../network/N4TD_FS_vtypes.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../output/asymmetric_summary.xml"/>
+        <tripinfo-output value="C:\MAS-RL-Traffic-Control\N4TD_FIRST_STANDARD\cfg\../output/asymmetric_tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+</sumoConfiguration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e2_file.xsd">
+   <interval begin="0.00" end="300.00" id="e2_7" sampledSeconds="365.39" nVehEntered="6" nVehLeft="6" nVehSeen="6" meanSpeed="2.69" meanTimeLoss="48.05" meanOccupancy="1.02" maxOccupancy="1.70" meanMaxJamLengthInVehicles="0.89" meanMaxJamLengthInMeters="1.91" maxJamLengthInVehicles="2" maxJamLengthInMeters="5.04" jamLengthInVehiclesSum="268" jamLengthInMetersSum="574.37" meanHaltingDuration="54.60" maxHaltingDuration="70.00" haltingDurationSum="273.00" meanIntervalHaltingDuration="54.60" maxIntervalHaltingDuration="70.00" intervalHaltingDurationSum="273.00" startedHalts="5.00" meanVehicleNumber="1.23" maxVehicleNumber="2" />
+   <interval begin="300.00" end="600.00" id="e2_7" sampledSeconds="162.76" nVehEntered="5" nVehLeft="4" nVehSeen="5" meanSpeed="5.15" meanTimeLoss="20.39" meanOccupancy="0.46" maxOccupancy="1.70" meanMaxJamLengthInVehicles="0.30" meanMaxJamLengthInMeters="0.54" maxJamLengthInVehicles="1" maxJamLengthInMeters="1.80" jamLengthInVehiclesSum="90" jamLengthInMetersSum="162.00" meanHaltingDuration="46.00" maxHaltingDuration="50.00" haltingDurationSum="92.00" meanIntervalHaltingDuration="46.00" maxIntervalHaltingDuration="50.00" intervalHaltingDurationSum="92.00" startedHalts="2.00" meanVehicleNumber="0.55" maxVehicleNumber="2" />
+   <interval begin="600.00" end="714.00" id="e2_7" sampledSeconds="43.34" nVehEntered="2" nVehLeft="3" nVehSeen="3" meanSpeed="9.78" meanTimeLoss="4.21" meanOccupancy="0.48" maxOccupancy="2.97" meanMaxJamLengthInVehicles="0.08" meanMaxJamLengthInMeters="0.14" maxJamLengthInVehicles="1" maxJamLengthInMeters="1.80" jamLengthInVehiclesSum="9" jamLengthInMetersSum="15.87" meanHaltingDuration="51.00" maxHaltingDuration="51.00" haltingDurationSum="51.00" meanIntervalHaltingDuration="9.00" maxIntervalHaltingDuration="9.00" intervalHaltingDurationSum="9.00" startedHalts="1.00" meanVehicleNumber="0.39" maxVehicleNumber="2" />
+</detector>

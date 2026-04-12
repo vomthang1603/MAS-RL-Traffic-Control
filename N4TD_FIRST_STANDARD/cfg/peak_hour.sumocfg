@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <input>
+        <net-file value="../network/N4TD_FS.net.xml"/>
+        <route-files value="../scenarios/peak_hour.rou.xml"/>
+        <additional-files value="../network/N4TD_FS.add.xml,../network/N4TD_FS_vtypes.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1"/>
+    </time>
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+    <output>
+        <summary-output value="../output/peak_hour_summary.xml"/>
+        <tripinfo-output value="../output/peak_hour_tripinfo.xml"/>
+    </output>
+</sumoConfiguration>
