@@ -1,0 +1,32 @@
+[33m1377850[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m HEAD@{0}: revert: Revert "Tái cấu trúc thư mục"
+[33m60d40ba[m HEAD@{1}: reset: moving to HEAD
+[33m60d40ba[m HEAD@{2}: reset: moving to HEAD
+[33m60d40ba[m HEAD@{3}: reset: moving to HEAD
+[33m60d40ba[m HEAD@{4}: commit: Tái cấu trúc thư mục
+[33m3c74a85[m HEAD@{5}: commit: Xây dựng kịch bản, chuẩn bị kết nối Traci
+[33m3cc8163[m HEAD@{6}: commit: Xây dựng N4TD
+[33mb07b0bf[m HEAD@{7}: commit: Ôn tập RL
+[33mcddd8c0[m HEAD@{8}: commit: Auto train on Kaggle
+[33m4ab3004[m HEAD@{9}: commit: Car Following Model
+[33m85077d6[m HEAD@{10}: commit: Train Model On GGCL
+[33medc2859[m HEAD@{11}: commit: Xây dựng Ngẫ Tư Thủ Đức, import Dữ liệu, bắt đầu trainModeal
+[33ma025a6c[m HEAD@{12}: commit: Thử import dữ liệu bằng py
+[33me7df8eb[m HEAD@{13}: commit: Thử xây dựng tay Ngã tư thủ đức
+[33m6cc15d8[m HEAD@{14}: commit: Thêm Traci auto train và trả kết quả
+[33mae31639[m HEAD@{15}: commit: Test train model 50 lần và trả kết quả dựa trên RL + Ôn tập QL và DQN
+[33mbb0398b[m HEAD@{16}: commit: Ôn tập QL và DQL, quay Demo RL của ngày 3 và xuất báo cáo, bắt đầu train model AI
+[33mcf3c532[m HEAD@{17}: commit: Update xuất báo cáo từ phỏng RL1,Ôn tập QL và DQL
+[33m009fbb9[m HEAD@{18}: commit: Học QLearning và DeepQL (Rất quan trọng) + học tăng cường (ReinforcementL
+[33m3fe600e[m HEAD@{19}: commit: Đổi đèn tín hiệu khi gặp xe ưu tiên
+[33medb4ba3[m HEAD@{20}: commit: Mô phỏng Ngã tư thủ đức học nạp dữ liệu, thu thập, chuẩn đoán và train model giải quyết ùn tắt
+[33m04ca4c8[m HEAD@{21}: commit: Xây dựng Road dựa trên GISMAP và học Traci cơ bản
+[33m1907ef9[m HEAD@{22}: commit: Mô phỏng thành công Ngã tư Thủ Đức
+[33m097a191[m HEAD@{23}: commit: Lưu trữ GISMAP để mô phỏng tình huống cho đồ án
+[33m0d1d731[m HEAD@{24}: commit: Học mô phỏng làn đường và kết nối Python với SUMO
+[33m49ed712[m HEAD@{25}: commit: Xây dựa Road dựa trên GISMAP và học Traci cơ bản
+[33m49bc8f2[m HEAD@{26}: commit: Xây dựng road dựa trên GISMAP và học Traci cơ bản
+[33m238792e[m HEAD@{27}: commit: Kiến thức
+[33mdcdd822[m HEAD@{28}: commit: Báo cáo tiến độ ngày 2, xây dựng ROAD trên SUMO dựa trên GITMAPcủa google map
+[33m6488aa8[m HEAD@{29}: commit: Tiến độ đồ án tuần 1
+[33m6147ef2[m HEAD@{30}: commit: Học cách xây dựng mô hình đô thị buổi 1
+[33mb4f4854[m HEAD@{31}: commit (initial): file test 1 để học xây dựng mô hình giao thông trên sumo
