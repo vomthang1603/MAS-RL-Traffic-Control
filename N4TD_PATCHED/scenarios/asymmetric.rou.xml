@@ -47,45 +47,45 @@
     <route id="r_J55_J45"   edges="E31 E24 E24.64"/>
     <route id="r_J55_J26"   edges="E31 E16"/>
 
-    <!-- === TÂY → ĐÔNG: LƯU LƯỢNG CAO === -->
-    <flow id="f_J15_J19_moto"   type="motorbike" route="r_J15_J19"   begin="0" end="3600" vehsPerHour="2250" departLane="best" departSpeed="max"/>
-    <flow id="f_J15_J45_moto"   type="motorbike" route="r_J15_J45"   begin="0" end="3600" vehsPerHour="750" departLane="best" departSpeed="max"/>
-    <flow id="f_J15_J51_moto"   type="motorbike" route="r_J15_J51"   begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max"/>
-    <flow id="f_J15_J26_car"    type="car"        route="r_J15_J26"   begin="0" end="3600" vehsPerHour="625" departLane="best" departSpeed="max"/>
+    <!-- === TÂY → ĐÔNG: LƯU LƯỢNG CAO (J15+J40 ≈ 2× J22+J34) === -->
+    <flow id="f_J15_J19_moto"   type="motorbike" route="r_J15_J19"   begin="0" end="3600" vehsPerHour="155" departLane="best" departSpeed="max"/>
+    <flow id="f_J15_J45_moto"   type="motorbike" route="r_J15_J45"   begin="0" end="3600" vehsPerHour="78"  departLane="best" departSpeed="max"/>
+    <flow id="f_J15_J51_moto"   type="motorbike" route="r_J15_J51"   begin="0" end="3600" vehsPerHour="52"  departLane="best" departSpeed="max"/>
+    <flow id="f_J15_J26_car"    type="car"        route="r_J15_J26"   begin="0" end="3600" vehsPerHour="68"  departLane="best" departSpeed="max"/>
 
-    <flow id="f_J40_J19_car"    type="car"        route="r_J40_J19"   begin="0" end="3600" vehsPerHour="1500" departLane="best" departSpeed="max"/>
-    <flow id="f_J40_J31_car"    type="car"        route="r_J40_J31"   begin="0" end="3600" vehsPerHour="1250" departLane="best" departSpeed="max"/>
-    <flow id="f_J40_J45b_car"   type="car"        route="r_J40_J45b"  begin="0" end="3600" vehsPerHour="550" departLane="best" departSpeed="max"/>
-    <flow id="f_J40_J51_car"    type="car"        route="r_J40_J51"   begin="0" end="3600" vehsPerHour="375" departLane="best" departSpeed="max"/>
-    <flow id="f_J40_J26_car"    type="car"        route="r_J40_J26"   begin="0" end="3600" vehsPerHour="625" departLane="best" departSpeed="max"/>
-    <flow id="f_J40_J19_taxi"   type="taxi"        route="r_J40_J19"   begin="0" end="3600" vehsPerHour="250" departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J19_car"    type="car"        route="r_J40_J19"   begin="0" end="3600" vehsPerHour="155" departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J31_car"    type="car"        route="r_J40_J31"   begin="0" end="3600" vehsPerHour="130" departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J45b_car"   type="car"        route="r_J40_J45b"  begin="0" end="3600" vehsPerHour="58"  departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J51_car"    type="car"        route="r_J40_J51"   begin="0" end="3600" vehsPerHour="42"  departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J26_car"    type="car"        route="r_J40_J26"   begin="0" end="3600" vehsPerHour="65"  departLane="best" departSpeed="max"/>
+    <flow id="f_J40_J19_taxi"   type="taxi"        route="r_J40_J19"   begin="0" end="3600" vehsPerHour="26"  departLane="best" departSpeed="max"/>
 
     <!-- === ĐÔNG → TÂY: LƯU LƯỢNG THẤP === -->
-    <flow id="f_J22_J31_moto"   type="motorbike" route="r_J22_J31"   begin="0" end="3600" vehsPerHour="750" departLane="best" departSpeed="max"/>
-    <flow id="f_J22_J19_moto"   type="motorbike" route="r_J22_J19"   begin="0" end="3600" vehsPerHour="500" departLane="best" departSpeed="max"/>
-    <flow id="f_J22_J45_moto"   type="motorbike" route="r_J22_J45"   begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
-    <flow id="f_J22_J51_moto"   type="motorbike" route="r_J22_J51"   begin="0" end="3600" vehsPerHour="200"  departLane="best" departSpeed="max"/>
+    <flow id="f_J22_J31_moto"   type="motorbike" route="r_J22_J31"   begin="0" end="3600" vehsPerHour="100" departLane="best" departSpeed="max"/>
+    <flow id="f_J22_J19_moto"   type="motorbike" route="r_J22_J19"   begin="0" end="3600" vehsPerHour="65"  departLane="best" departSpeed="max"/>
+    <flow id="f_J22_J45_moto"   type="motorbike" route="r_J22_J45"   begin="0" end="3600" vehsPerHour="40"  departLane="best" departSpeed="max"/>
+    <flow id="f_J22_J51_moto"   type="motorbike" route="r_J22_J51"   begin="0" end="3600" vehsPerHour="25"  departLane="best" departSpeed="max"/>
 
-    <flow id="f_J34_J31_moto"   type="motorbike" route="r_J34_J31"   begin="0" end="3600" vehsPerHour="500" departLane="best" departSpeed="max"/>
-    <flow id="f_J34_J19_moto"   type="motorbike" route="r_J34_J19"   begin="0" end="3600" vehsPerHour="375" departLane="best" departSpeed="max"/>
-    <flow id="f_J34_J45b_moto"  type="motorbike" route="r_J34_J45b"  begin="0" end="3600" vehsPerHour="250" departLane="best" departSpeed="max"/>
-    <flow id="f_J34_J26_car"    type="car"        route="r_J34_J26"   begin="0" end="3600" vehsPerHour="200"  departLane="best" departSpeed="max"/>
+    <flow id="f_J34_J31_moto"   type="motorbike" route="r_J34_J31"   begin="0" end="3600" vehsPerHour="68"  departLane="best" departSpeed="max"/>
+    <flow id="f_J34_J19_moto"   type="motorbike" route="r_J34_J19"   begin="0" end="3600" vehsPerHour="52"  departLane="best" departSpeed="max"/>
+    <flow id="f_J34_J45b_moto"  type="motorbike" route="r_J34_J45b"  begin="0" end="3600" vehsPerHour="36"  departLane="best" departSpeed="max"/>
+    <flow id="f_J34_J26_car"    type="car"        route="r_J34_J26"   begin="0" end="3600" vehsPerHour="26"  departLane="best" departSpeed="max"/>
 
     <!-- === BẮC ↔ NAM === -->
-    <flow id="f_J46_J51_moto"   type="motorbike" route="r_J46_J51"   begin="0" end="3600" vehsPerHour="700" departLane="first" departSpeed="max"/>
-    <flow id="f_J46_J31a_moto"  type="motorbike" route="r_J46_J31a"  begin="0" end="3600" vehsPerHour="550" departLane="first" departSpeed="max"/>
-    <flow id="f_J46_J45a_moto"  type="motorbike" route="r_J46_J45a"  begin="0" end="3600" vehsPerHour="500" departLane="first" departSpeed="max"/>
-    <flow id="f_J46_J31b_moto"  type="motorbike" route="r_J46_J31b"  begin="0" end="3600" vehsPerHour="450" departLane="first" departSpeed="max"/>
-    <flow id="f_J46_J26a_car"   type="car"        route="r_J46_J26a"  begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
-    <flow id="f_J46_J26b_car"   type="car"        route="r_J46_J26b"  begin="0" end="3600" vehsPerHour="250" departLane="best" departSpeed="max"/>
+    <flow id="f_J46_J51_moto"   type="motorbike" route="r_J46_J51"   begin="0" end="3600" vehsPerHour="95"  departLane="first" departSpeed="max"/>
+    <flow id="f_J46_J31a_moto"  type="motorbike" route="r_J46_J31a"  begin="0" end="3600" vehsPerHour="75"  departLane="first" departSpeed="max"/>
+    <flow id="f_J46_J45a_moto"  type="motorbike" route="r_J46_J45a"  begin="0" end="3600" vehsPerHour="68"  departLane="first" departSpeed="max"/>
+    <flow id="f_J46_J31b_moto"  type="motorbike" route="r_J46_J31b"  begin="0" end="3600" vehsPerHour="62"  departLane="first" departSpeed="max"/>
+    <flow id="f_J46_J26a_car"   type="car"        route="r_J46_J26a"  begin="0" end="3600" vehsPerHour="40"  departLane="best" departSpeed="max"/>
+    <flow id="f_J46_J26b_car"   type="car"        route="r_J46_J26b"  begin="0" end="3600" vehsPerHour="32"  departLane="best" departSpeed="max"/>
 
-    <flow id="f_J52_J31_moto"   type="motorbike" route="r_J52_J31"   begin="0" end="3600" vehsPerHour="500" departLane="best" departSpeed="max"/>
-    <flow id="f_J52_J45_moto"   type="motorbike" route="r_J52_J45"   begin="0" end="3600" vehsPerHour="450" departLane="best" departSpeed="max"/>
-    <flow id="f_J52_J26_car"    type="car"        route="r_J52_J26"   begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+    <flow id="f_J52_J31_moto"   type="motorbike" route="r_J52_J31"   begin="0" end="3600" vehsPerHour="68"  departLane="best" departSpeed="max"/>
+    <flow id="f_J52_J45_moto"   type="motorbike" route="r_J52_J45"   begin="0" end="3600" vehsPerHour="60"  departLane="best" departSpeed="max"/>
+    <flow id="f_J52_J26_car"    type="car"        route="r_J52_J26"   begin="0" end="3600" vehsPerHour="40"  departLane="best" departSpeed="max"/>
 
-    <flow id="f_J55_J31_moto"   type="motorbike" route="r_J55_J31"   begin="0" end="3600" vehsPerHour="62" departLane="best" departSpeed="max"/>
-    <flow id="f_J55_J19_moto"   type="motorbike" route="r_J55_J19"   begin="0" end="3600" vehsPerHour="50" departLane="best" departSpeed="max"/>
-    <flow id="f_J55_J45_moto"   type="motorbike" route="r_J55_J45"   begin="0" end="3600" vehsPerHour="38" departLane="best" departSpeed="max"/>
-    <flow id="f_J55_J26_car"    type="car"        route="r_J55_J26"   begin="0" end="3600" vehsPerHour="30" departLane="best" departSpeed="max"/>
+    <flow id="f_J55_J31_moto"   type="motorbike" route="r_J55_J31"   begin="0" end="3600" vehsPerHour="62"  departLane="best" departSpeed="max"/>
+    <flow id="f_J55_J19_moto"   type="motorbike" route="r_J55_J19"   begin="0" end="3600" vehsPerHour="50"  departLane="best" departSpeed="max"/>
+    <flow id="f_J55_J45_moto"   type="motorbike" route="r_J55_J45"   begin="0" end="3600" vehsPerHour="38"  departLane="best" departSpeed="max"/>
+    <flow id="f_J55_J26_car"    type="car"        route="r_J55_J26"   begin="0" end="3600" vehsPerHour="30"  departLane="best" departSpeed="max"/>
 
 </routes>
